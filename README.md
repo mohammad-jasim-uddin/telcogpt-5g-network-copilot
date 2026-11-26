@@ -3,8 +3,6 @@
 TelcoGPT is a portfolio-ready AI project for telecom network operations.  
 It uses Hugging Face embeddings, FAISS vector search, LangChain, and Streamlit to answer LTE/5G troubleshooting questions from telecom documents.
 
-## Why This Project Is Strong
-
 This project connects directly with:
 
 - MSc in Mobile & Personal Communications
@@ -196,3 +194,13 @@ Python | Hugging Face | LangChain | FAISS | Streamlit | RAG | LLMs
 
 The first run may take time because Hugging Face models are downloaded locally.
 For low-resource computers, endpoint mode is recommended.
+
+</> Bash
+git clone https://github.com/mohammad-jasim-uddin/telcogpt-5g-network-copilot.git
+cd telcogpt-5g-network-copilot
+pip install -r requirements.txt
+python ingest.py
+streamlit run app.py
+
+**Support the project**
+If TelcoGPT is useful to you, consider giving the repository a ⭐.
