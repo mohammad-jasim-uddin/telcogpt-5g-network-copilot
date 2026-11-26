@@ -190,7 +190,7 @@ Python | Hugging Face | LangChain | FAISS | Streamlit | RAG | LLMs
 #GenerativeAI #HuggingFace #Telecom #RAG #LangChain #AIEngineer #MLOps
 ```
 
-## Notes
+**Notes**
 
 The first run may take time because Hugging Face models are downloaded locally.
 For low-resource computers, endpoint mode is recommended.
