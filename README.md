@@ -89,19 +89,16 @@ python -m venv venv
 Activate virtual environment:
 
 Windows:
-
 ```bash
 venv\Scripts\activate
 ```
 
 Mac/Linux:
-
 ```bash
 source venv/bin/activate
 ```
 
 Install dependencies:
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -111,25 +108,19 @@ pip install -r requirements.txt
 Copy `.env.example` to `.env`.
 
 Windows:
-
 ```bash
 copy .env.example .env
 ```
-
 Mac/Linux:
-
 ```bash
 cp .env.example .env
 ```
 
 Default mode is local:
-
 ```env
 TELCOGPT_LLM_MODE=local
 ```
-
 For Hugging Face endpoint mode:
-
 ```env
 TELCOGPT_LLM_MODE=endpoint
 HUGGINGFACEHUB_API_TOKEN=your_token_here
@@ -142,13 +133,11 @@ python ingest.py
 ```
 
 ## Run the App
-
 ```bash
 streamlit run app.py
 ```
 
 ## Example Questions
-
 ```text
 What causes RRC connection failure?
 How do I troubleshoot high packet loss in an LTE site?
@@ -170,24 +159,43 @@ python ingest.py
 **TelcoGPT – 5G Network Operations Copilot**  
 Built a Hugging Face-powered Retrieval-Augmented Generation chatbot for telecom network operations. The system uses sentence-transformer embeddings, FAISS vector search, LangChain, and an LLM pipeline to answer LTE/5G troubleshooting questions from technical documents. Demonstrated practical skills in Generative AI, Hugging Face, RAG, vector databases, prompt engineering, Python, Streamlit, and telecom domain problem-solving.
 
+
 ## LinkedIn Post
 
-```text
-I built TelcoGPT – a 5G Network Operations Copilot using Hugging Face, LangChain, FAISS, and Streamlit.
+Introducing TelcoGPT – 5G Network Operations Copilot
 
-The project helps telecom engineers:
-- Explain LTE/5G alarms
-- Troubleshoot RRC connection failures
-- Analyse packet loss issues
-- Search telecom documents using RAG
-- Generate incident support answers
+I'm excited to share my AI engineering portfolio project, combining telecommunications expertise with Generative AI, Machine Learning and Agentic AI.
 
-This project combines my MSc in Mobile & Personal Communications with modern Generative AI engineering.
+The project explores how artificial intelligence can support modern telecommunications network operations.
 
-Tech Stack:
-Python | Hugging Face | LangChain | FAISS | Streamlit | RAG | LLMs
+Key capabilities:
 
-#GenerativeAI #HuggingFace #Telecom #RAG #LangChain #AIEngineer #MLOps
+🔹 Retrieval-Augmented Generation (RAG)
+
+🔹 5G network KPI analysis
+
+🔹 Machine learning-based fault classification
+
+🔹 Network anomaly detection
+
+🔹 Explainable AI using SHAP
+
+🔹 Multi-agent incident management
+
+🔹 Interactive Streamlit dashboards
+
+Technology stack: Python, LangChain, LangGraph, FAISS, Scikit-learn, XGBoost and Streamlit.
+
+This project demonstrates my interest in applying AI to real-world telecommunications and network operations challenges.
+
+🔗 GitHub Repository: \[https://github.com/mohammad-jasim-uddin/telcogpt-5g-network-copilot\]
+
+I would welcome feedback, suggestions and collaboration from AI engineers, data scientists and telecommunications professionals.
+
+If you find this project useful, please consider giving it a ⭐ on GitHub.
+
+#ArtificialIntelligence #MachineLearning #GenerativeAI #AgenticAI #Telecommunications #5G #Python #DataScience #OpenSource #GitHub
+```
 ```
 
 **Notes**
